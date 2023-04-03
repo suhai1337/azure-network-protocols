@@ -40,7 +40,7 @@ Setting up all of your resources should give you access to your virtual machine,
 <img src="https://i.imgur.com/e35am6T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Using Wireshark and Powershell, we are then able to observe traffic between our virtual machines network and also other networks as well. With Wireshark, we are able to filter what we can see such as if we are only looking for ICMP, UDP or even SSH. In this example I log into the Ubuntu virtual machine using SSH on the Windows 10 virtual machine. The Wireshark application in the background displays how many interactions are happening between the two virtual machines, the source of interactions, the destinations and the information that is being transmitted. For SSH, everytime we type something into the PowerShell while we are signed in through SSH, there will be an SSH signal transferring between the Windows 10 virtual machine and the Ubuntu Virtual Machine. Potentially we could also use Wireshark to test network connectivity with pings between local computers or even online networks.
 </p>
 <br />
 
