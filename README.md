@@ -48,6 +48,6 @@ Using Wireshark and Powershell, we are then able to observe traffic between our 
 <img src="https://i.imgur.com/LopwCeZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In the Ubuntu Inbound security rules, we deny any inbound ICMP signals to be denied. To do this we add an additional setting to the inbound security rules and make sure that the priority is correct. This makes it so that on our Windows 10 virtual machine, anytime we try to singal with ICMP to the Ubuntu virtual machine, there will be no response unless we update the security rules. 
 </p>
 <br />
