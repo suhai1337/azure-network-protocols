@@ -32,7 +32,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/Trf67t1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Setting up all of your resources should give you access to your virtual machine, its IP address, network security and also other useful resources. I set up both a Windows 10 virtual machine and also an Ubuntu Server virtual machine. Using Remote Control, we log into the Windows 10 virtual machine and install Wireshark in order to observe traffic between our virutal machines.
 </p>
 <br />
 
