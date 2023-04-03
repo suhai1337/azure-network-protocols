@@ -21,7 +21,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Set up Microsoft Azure Virtual Machines within proper network groups and any additional resources needed.
+- Set up Microsoft Azure Virtual Machines with proper resource and network groups and any additional resources needed.
 - Using Remote Desktop, sign into Azure Virtual Machine and install Wireshark.
 - Using Wireshark and Powershell, use Various Command-Line Tools to observe various Network Protocal traffic between virtual machines.
 - Add additional security rules within Azure's Virtual Machine in the Azure portal to disable/enable various rules involving Network Protocols.
